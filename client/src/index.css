@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Heebo:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 222 47% 11%;
+    
+    /* Dark Navy */
+    --primary: 222 47% 15%; 
+    --primary-foreground: 210 40% 98%;
+    
+    /* Bright Cyan */
+    --accent: 185 80% 40%;
+    --accent-foreground: 210 40% 98%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+    
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 185 80% 40%; /* Cyan focus ring */
+    
+    --radius: 1rem;
+
+    --font-arabic: 'Cairo', sans-serif;
+    --font-hebrew: 'Heebo', sans-serif;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html[lang="ar"] body {
+    font-family: var(--font-arabic);
+  }
+
+  html[lang="he"] body {
+    font-family: var(--font-hebrew);
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased overflow-x-hidden;
+    direction: rtl; /* Enforce RTL globally */
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight text-primary;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl shadow-black/5;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+  
+  .cyan-glow {
+    @apply shadow-[0_0_20px_rgba(13,180,185,0.4)];
+  }
+}

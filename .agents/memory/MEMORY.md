@@ -1,0 +1,3 @@
+- [Publications Section](publications-section.md) — قسم المؤلفات العلمية مُضاف كـ SPA routes داخل الموقع الحالي؛ البيانات في data/publications/
+- [Book Page Design](book-page-design.md) — BookPage.tsx يستخدم التصميم المعتمد (Book Experience Polish)؛ لا Sidebar، لا sticky strip، Hero مختصر، تسلسل محدد
+- [Books Index Architecture](books-index-architecture.md) — BooksIndex ذكي ثلاثي المراحل؛ Book Object مقرر يصبح غنياً (SEO, articles, videos, FAQs) في المرحلة التالية

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sawalhident.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/services/implants</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/services/cosmetic</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/services/orthodontics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/blog/implant-cost-ramallah</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2024-05-15</lastmod>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/blog/hollywood-smile</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2024-06-02</lastmod>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/blog/best-dentist-ramallah</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2024-07-10</lastmod>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/blog/is-implant-painful</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/blog/braces-duration</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2024-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/publications</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/publications/books</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/publications/author/mohamed-sawalhi</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/publications/books/diagnostic-records-mastery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/ar/dentist-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/dentist-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/dentist-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/ar/dental-clinic-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/dental-clinic-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/dental-clinic-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/ar/dental-implants-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/dental-implants-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/dental-implants-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/ar/implant-cost-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/implant-cost-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/implant-cost-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/ar/orthodontics-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/orthodontics-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/orthodontics-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/ar/teeth-whitening-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/teeth-whitening-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/teeth-whitening-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/ar/hollywood-smile-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/hollywood-smile-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/hollywood-smile-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/ar/root-canal-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/root-canal-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/root-canal-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/ar/gum-treatment-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/gum-treatment-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/gum-treatment-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/ar/emergency-dentist-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/emergency-dentist-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/emergency-dentist-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/he/dentist-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/dentist-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/dentist-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/he/dental-clinic-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/dental-clinic-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/dental-clinic-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/he/dental-implants-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/dental-implants-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/dental-implants-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/he/implant-cost-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/implant-cost-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/implant-cost-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/he/orthodontics-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/orthodontics-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/orthodontics-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/he/teeth-whitening-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/teeth-whitening-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/teeth-whitening-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/he/hollywood-smile-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/hollywood-smile-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/hollywood-smile-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/he/root-canal-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/root-canal-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/root-canal-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/he/gum-treatment-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/gum-treatment-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/gum-treatment-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sawalhident.com/he/emergency-dentist-ramallah</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sawalhident.com/ar/emergency-dentist-ramallah"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://sawalhident.com/he/emergency-dentist-ramallah"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

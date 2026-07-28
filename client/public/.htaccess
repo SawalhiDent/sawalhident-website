@@ -1,0 +1,52 @@
+# ============================================================
+# Sawalhi Dent — Apache .htaccess
+# SPA Routing + Cache Policy
+# ============================================================
+
+Options -MultiViews
+
+# ── SPA Routing ──────────────────────────────────────────────
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # الملفات والمجلدات الموجودة فعلاً تُخدَم مباشرة
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # كل المسارات الأخرى (SPA routes) → index.html
+  RewriteRule ^ /index.html [L]
+</IfModule>
+
+# ── MIME Types ───────────────────────────────────────────────
+AddType application/javascript .js .mjs
+AddType text/css .css
+AddType application/json .json
+AddType font/woff2 .woff2
+
+# ── Cache Policy ─────────────────────────────────────────────
+<IfModule mod_headers.c>
+
+  # ملفات Vite ذات hash في اسمها — سنة كاملة immutable
+  # مثال: index-6zqNks_G.js أو index-BaFBtA8v.css
+  <FilesMatch "-[A-Za-z0-9_-]{7,10}\.(js|css|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # صور وخطوط بأسماء ثابتة — أسبوع (قد تتغير بدون تغيير الاسم)
+  <FilesMatch "\.(png|jpg|jpeg|webp|gif|svg|ico|woff|ttf|eot)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+
+  # ملفات PDF — يوم واحد (قد يُحدَّث الكتاب دون تغيير الاسم)
+  <FilesMatch "\.pdf$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+
+  # ملفات الاكتشاف والتنقل — لا تخزين
+  <FilesMatch "^(index\.html|sitemap\.xml|robots\.txt|rss\.xml)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+    Header set Pragma "no-cache"
+  </FilesMatch>
+
+</IfModule>
