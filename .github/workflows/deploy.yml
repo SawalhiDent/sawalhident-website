@@ -26,12 +26,24 @@ jobs:
         run: npm run build:client
 
       - name: Deploy to Hostinger via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           local-dir: ./dist/public/
-          server-dir: /public_html/
+          server-dir: /
           dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            app/**
+            scientific/**
+            socialmedia/**
+            test-deploy/**
+            assets.528/**
+            website-build.zip
+            website-public.zip
+            google1207fef50b0ac161.html
