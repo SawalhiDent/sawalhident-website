@@ -41,12 +41,25 @@ export default function About() {
           className="relative"
         >
           <div className="absolute inset-0 bg-accent rounded-[3rem] transform -rotate-3 scale-105 opacity-20" />
-          <img
-            src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&h=1000&fit=crop"
-            alt={t.about_dr_name}
-            className="relative z-10 rounded-[3rem] w-full shadow-2xl"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              srcSet="/images/dr-mohamed-sawalhi-dentist-ramallah.webp"
+              type="image/webp"
+            />
+            <img
+              src="/images/dr-mohamed-sawalhi-dentist-ramallah.jpg"
+              alt={
+                lang === "ar"
+                  ? "د. محمد صوالحي – طبيب أسنان متخصص في زراعة الأسنان وتقويمها في رام الله"
+                  : "ד״ר מוחמד סוואלחי – רופא שיניים מומחה להשתלות ויישור שיניים ברמאללה"
+              }
+              width={800}
+              height={1067}
+              className="relative z-10 rounded-[3rem] w-full shadow-2xl"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
         </motion.div>
 
         <motion.div
