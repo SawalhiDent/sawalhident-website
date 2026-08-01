@@ -11,24 +11,44 @@ export default function About() {
   return (
     <div className="pt-32 pb-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <SEOHead
-        title={lang === "ar" ? "عن العيادة | صوالحي دنت – رام الله" : "אודות המרפאה | סוואלחי דנט – רמאללה"}
-        description={lang === "ar" ? "تعرف على عيادة د. محمد صوالحي لطب وزراعة الأسنان في رام الله. خبرة واسعة وتقنيات حديثة." : "הכירו את מרפאת ד״ר מוחמד סוואלחי לרפואת שיניים והשתלות ברמאללה. ניסיון רב וטכנולוגיות מתקדמות."}
+        title={
+          lang === "ar"
+            ? "عن العيادة | صوالحي دنت – رام الله"
+            : "אודות המרפאה | סוואלחי דנט – רמאללה"
+        }
+        description={
+          lang === "ar"
+            ? "تعرف على عيادة د. محمد صوالحي لطب وزراعة الأسنان في رام الله. خبرة واسعة وتقنيات حديثة."
+            : "הכירו את מרפאת ד״ר מוחמד סוואלחי לרפואת שיניים והשתלות ברמאללה. ניסיון רב וטכנולוגיות מתקדמות."
+        }
         path="/about"
       />
+
       <JsonLd data={localBusinessSchema(lang)} />
 
-      <Breadcrumbs items={[
-        { label: t.breadcrumb_home, href: "/" },
-        { label: t.about_title },
-      ]} />
+      <Breadcrumbs
+        items={[
+          { label: t.breadcrumb_home, href: "/" },
+          { label: t.about_title },
+        ]}
+      />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         className="text-center max-w-3xl mx-auto mb-16"
       >
-        <h1 className="text-5xl font-bold text-primary mb-6" data-testid="text-about-title">{t.about_title}</h1>
-        <p className="text-xl text-muted-foreground leading-relaxed" data-testid="text-about-intro">
+        <h1
+          className="text-5xl font-bold text-primary mb-6"
+          data-testid="text-about-title"
+        >
+          {t.about_title}
+        </h1>
+
+        <p
+          className="text-xl text-muted-foreground leading-relaxed"
+          data-testid="text-about-intro"
+        >
           {t.about_intro}
         </p>
       </motion.div>
@@ -41,13 +61,15 @@ export default function About() {
           className="relative"
         >
           <div className="absolute inset-0 bg-accent rounded-[3rem] transform -rotate-3 scale-105 opacity-20" />
+
           <picture>
             <source
-              srcSet="/images/dr-mohamed-sawalhi-dentist-ramallah.webp"
+              srcSet="/images/dr-mohamed-sawalhi-dentist-ramallah-v2.webp"
               type="image/webp"
             />
+
             <img
-              src="/images/dr-mohamed-sawalhi-dentist-ramallah.jpg"
+              src="/images/dr-mohamed-sawalhi-dentist-ramallah-v2.jpg"
               alt={
                 lang === "ar"
                   ? "د. محمد صوالحي – طبيب أسنان متخصص في زراعة الأسنان وتقويمها في رام الله"
@@ -68,21 +90,39 @@ export default function About() {
           transition={{ delay: 0.3 }}
           className="space-y-8"
         >
-          <h2 className="text-3xl font-bold text-primary" data-testid="text-dr-name">{t.about_dr_name}</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed" data-testid="text-dr-desc">
+          <h2
+            className="text-3xl font-bold text-primary"
+            data-testid="text-dr-name"
+          >
+            {t.about_dr_name}
+          </h2>
+
+          <p
+            className="text-lg text-muted-foreground leading-relaxed"
+            data-testid="text-dr-desc"
+          >
             {t.about_dr_desc}
           </p>
 
           <div className="grid sm:grid-cols-2 gap-6 pt-6">
             <div className="bg-primary/5 p-6 rounded-2xl border border-primary/10">
               <Award className="w-8 h-8 text-accent mb-4" />
+
               <h3 className="font-bold text-lg mb-2">{t.about_cert}</h3>
-              <p className="text-sm text-muted-foreground">{t.about_cert_desc}</p>
+
+              <p className="text-sm text-muted-foreground">
+                {t.about_cert_desc}
+              </p>
             </div>
+
             <div className="bg-primary/5 p-6 rounded-2xl border border-primary/10">
               <HeartPulse className="w-8 h-8 text-accent mb-4" />
+
               <h3 className="font-bold text-lg mb-2">{t.about_care}</h3>
-              <p className="text-sm text-muted-foreground">{t.about_care_desc}</p>
+
+              <p className="text-sm text-muted-foreground">
+                {t.about_care_desc}
+              </p>
             </div>
           </div>
         </motion.div>
