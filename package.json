@@ -9,7 +9,8 @@
     "start": "NODE_ENV=production node dist/index.cjs",
     "check": "tsc",
     "db:push": "drizzle-kit push",
-    "build:client": "tsx scripts/generate-sitemap.ts && vite build"
+    "build:client": "tsx scripts/generate-sitemap.ts && vite build",
+    "deploy": "npm run build:client && tsx scripts/deploy-ftp.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -96,6 +97,7 @@
     "@types/ws": "^8.5.13",
     "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.4.20",
+    "basic-ftp": "^6.2.0",
     "drizzle-kit": "^0.31.8",
     "esbuild": "^0.25.0",
     "postcss": "^8.4.47",
