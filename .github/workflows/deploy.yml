@@ -25,26 +25,12 @@ jobs:
       - name: Build
         run: npm run build:client
 
-      - name: Deploy to Hostinger via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
-        with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          local-dir: ./dist/public/
-          server-dir: /public_html/
-          dangerous-clean-slate: false
-          state-name: .ftp-deploy-sync-state-v4.json
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            app/**
-            scientific/**
-            socialmedia/**
-            test-deploy/**
-            assets.528/**
-            website-build.zip
-            website-public.zip
-            google1207fef50b0ac161.html
+      - name: Push built files to production branch
+        run: |
+          cd dist/public
+          git init
+          git config user.email "github-actions@github.com"
+          git config user.name "GitHub Actions"
+          git add -A
+          git commit -m "deploy: ${{ github.sha }}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_PAT }}@github.com/SawalhiDent/sawalhident-website.git" HEAD:production
