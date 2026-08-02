@@ -10,7 +10,8 @@
     "check": "tsc",
     "db:push": "drizzle-kit push",
     "build:client": "tsx scripts/generate-sitemap.ts && vite build",
-    "deploy": "npm run build:client && tsx scripts/deploy-ftp.ts"
+    "deploy": "npm run build:client && tsx scripts/deploy-ftp.ts",
+    "publish": "npm run deploy"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
