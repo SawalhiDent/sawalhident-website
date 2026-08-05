@@ -124,9 +124,109 @@ export const BOOKS: Book[] = [
       "Diagnostic Records Mastery",
     ],
 
-    relatedBookIds: [],
+    relatedBookIds: ["mastery-of-physics-implant-protocol"],
     status: "published",
     updatedAt: "2026-06-30",
+  },
+
+  // ======================================================
+  // الكتاب الثاني: Mastery of Physics & Implant Protocol
+  // ======================================================
+  {
+    id: "mastery-of-physics-implant-protocol",
+    slug: "mastery-of-physics-implant-protocol",
+
+    titleAr: "إتقان فيزياء وبروتوكول الزراعة",
+    titleEn: "Mastery of Physics & Implant Protocol",
+    subtitleAr: "دليل العيادة الذكي: من الفيزياء للممارسة.. كيف تضمن صفر فشل؟",
+    subtitleEn: "Clinical Smart Guide — Zero Failure Protocol",
+    seriesName: "Mastery of Implant Cases",
+
+    shortDescriptionAr:
+      "دليل سريري مصوّر يُعلّمك الفيزياء الصحيحة خلف كل خطوة في بروتوكول زراعة الأسنان — من اختيار الـ Physiodispenser والكونترا الصحيح، إلى برمجة الجهاز وضمان صفر فشل.",
+
+    openingParagraphAr:
+      "الزراعة مش مجرد براغي، هي تعامل مع نسيج حي (Living Tissue). الشطارة هي الـ Success Rate على المدى البعيد. لأنو العظم بحس، لازم نفهم لغته.",
+
+    quoteAr:
+      "الفهم الصحيح + التطبيق الدقيق = صفر فشل.",
+
+    fullDescriptionAr:
+      "نجاح الزراعة لا يبدأ بالحفر — يبدأ بفهم الفيزياء التي تحكم كل خطوة تقوم بها.\n\n" +
+      "يأخذك هذا الكتاب في رحلة عملية عميقة داخل بروتوكول الزراعة الصحيح: لماذا الزراعة تختلف جذرياً عن أي إجراء تقليدي آخر؟ كيف يعمل الـ Physiodispenser ولماذا هو قلب النظام؟ ما الفرق بين الكونترا الأحمر والأزرق والأخضر وكيف يؤثر اختيارك على نجاح الزرعة؟\n\n" +
+      "من خلال 8 صفحات مكثفة مصورة، يتناول الكتاب: آلية عمل الـ Physiodispenser وأهمية الـ Steady Torque ونظام ضخ المحلول الملحي 100%، جدول التروس الثلاثة (1:5 / 1:1 / 20:1) وتطبيق كل منها، برمجة 3 برامج أساسية في الجهاز (Drilling / Insertion / Densah Expansion)، أسئلة شائعة عملية مع إجابات مباشرة، و8 إرشادات ذهبية قابلة للتطبيق الفوري في كل عملية زراعة.",
+
+    coverImage: "/publications/covers/mastery-of-physics-implant-protocol.jpg",
+    pdfUrl: "/publications/pdfs/mastery-of-physics-implant-protocol.pdf",
+    pdfSizeMB: 1.6,
+
+    previewImages: [
+      "/publications/previews/mastery-of-physics-implant-protocol/01-introduction.jpg",
+      "/publications/previews/mastery-of-physics-implant-protocol/02-physiodispenser.jpg",
+      "/publications/previews/mastery-of-physics-implant-protocol/03-gear-ratio.jpg",
+      "/publications/previews/mastery-of-physics-implant-protocol/04-programming-console.jpg",
+      "/publications/previews/mastery-of-physics-implant-protocol/05-faq.jpg",
+      "/publications/previews/mastery-of-physics-implant-protocol/06-golden-tips.jpg",
+    ],
+
+    authorId: "mohamed-sawalhi",
+    category: "implantology",
+    language: "العربية",
+    pageCount: 8,
+    publicationDate: "2026-06-27",
+    edition: "الإصدار الأول",
+    version: "2.0",
+
+    changelog: [
+      {
+        version: "2.0",
+        date: "2026-06-27",
+        descriptionAr: "النسخة الثانية المحدّثة — Version 2 Digital Publication.",
+      },
+    ],
+
+    targetAudienceAr:
+      "أطباء الأسنان الممارسون لزراعة الأسنان، والمقبلون على تعلّم بروتوكول الزراعة الصحيح لأول مرة.",
+
+    learningObjectivesAr: [
+      "فهم لماذا الزراعة تختلف عن الإجراءات التقليدية وضرورة التعامل مع العظم كنسيج حي",
+      "معرفة آلية عمل الـ Physiodispenser ودوره في ضمان Steady Torque وتعقيم 100% بالمحلول الملحي",
+      "التمييز بين الكونترات الثلاث (أحمر 1:5 / أزرق 1:1 / أخضر 20:1) واختيار الصحيح لكل خطوة",
+      "برمجة 3 برامج أساسية في الجهاز: Drilling وInsertion وDensah/Expansion",
+      "تطبيق معايير الـ Drilling الآمنة (800-1200 RPM، 30-40 Ncm، Irrigation 100%)",
+      "فهم خطر تجاوز 47°C وكيف يؤدي إلى Bone Necrosis وفشل الزرعة",
+      "تطبيق بروتوكول Insertion الصحيح (20-40 RPM، البدء بـ 15 Ncm حماية للكونترا)",
+      "تطبيق 8 إرشادات ذهبية قابلة للتنفيذ الفوري في كل عملية زراعة",
+    ],
+
+    tableOfContents: [
+      { title: "الغلاف", titleEn: "Cover", page: 1 },
+      { title: "المقدمة", titleEn: "Introduction — Bone is Living Tissue", page: 2 },
+      { title: "قلب النظام — الـ Physiodispenser", titleEn: "The Heart of the System", page: 3 },
+      { title: "جدول التروس", titleEn: "The Gear Ratio", page: 4 },
+      { title: "برمج جهازك صح", titleEn: "Programming the Console", page: 5 },
+      { title: "الأسئلة الشائعة", titleEn: "FAQ", page: 6 },
+      { title: "نصائح وإرشادات ذهبية", titleEn: "Golden Tips", page: 7 },
+      { title: "عن المؤلف", titleEn: "About the Author", page: 8 },
+    ],
+
+    keywords: [
+      "زراعة الأسنان",
+      "بروتوكول الزراعة",
+      "Physiodispenser",
+      "Implant Protocol",
+      "فيزياء الزراعة",
+      "Gear Ratio",
+      "Steady Torque",
+      "Bone Necrosis",
+      "د. محمد صوالحي",
+      "Mastery of Implant Cases",
+      "Zero Failure Protocol",
+    ],
+
+    relatedBookIds: ["diagnostic-records-mastery"],
+    status: "published",
+    updatedAt: "2026-06-27",
   },
 
 ];
