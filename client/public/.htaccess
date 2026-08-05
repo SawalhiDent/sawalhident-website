@@ -9,6 +9,12 @@ Options -MultiViews
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # مسارات React الصريحة — تُحوَّل إلى index.html قبل فحص المجلدات الفعلية
+  RewriteRule ^publications/?$ /index.html [L]
+  RewriteRule ^publications/books/?$ /index.html [L]
+  RewriteRule ^publications/books/[^/]+/?$ /index.html [L]
+  RewriteRule ^publications/author/[^/]+/?$ /index.html [L]
+
   # الملفات والمجلدات الموجودة فعلاً تُخدَم مباشرة
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
