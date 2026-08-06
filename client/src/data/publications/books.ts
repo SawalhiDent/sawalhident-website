@@ -39,17 +39,17 @@ export const BOOKS: Book[] = [
       "يُقدّم هذا الكتاب منهجية سريرية متكاملة لتقييم مرضى زراعة الأسنان، مبنية على سبعة أسئلة جوهرية: هل المريض مناسب؟ هل التوقيت مناسب؟ هل عنده خطر طبي؟ هل عنده خطر إطباقي؟ هل العظم كافٍ؟ هل العظم ذو جودة جيدة؟ وهل القياسات على الـ CBCT دقيقة ومحددة؟\n\n" +
       "من خلال 24 درساً سريرياً مصوّراً، يأخذك الكتاب من الغلطة الأولى الشائعة التي يقع فيها كثير من الأطباء، حتى قراءة الـ CBCT كخريطة تشريحية كاملة لا مجرد صورة قياسية. يتناول الكتاب مواضيع دقيقة كتأثير Bisphosphonates، وتقييم الإطباق، وفهم مريض الـ Bruxer، وقياس العظم من نقطته الحقيقية لا من الكريست، وتحديد البنى التشريحية الخطرة بما فيها Lingual Canal وSublingual Artery والـ Anterior Loop.",
 
-    coverImage: "/publications/covers/diagnostic-records-mastery.jpg",
-    pdfUrl: "/publications/pdfs/diagnostic-records-mastery.pdf",
+    coverImage: "/publication-assets/covers/diagnostic-records-mastery.jpg",
+    pdfUrl: "/publication-assets/pdfs/diagnostic-records-mastery.pdf",
     pdfSizeMB: 12.9,
 
     previewImages: [
-      "/publications/previews/diagnostic-records-mastery/01-real-starting-point.jpg",
-      "/publications/previews/diagnostic-records-mastery/02-clinical-pearl.jpg",
-      "/publications/previews/diagnostic-records-mastery/03-golden-rule.jpg",
-      "/publications/previews/diagnostic-records-mastery/04-anatomical-atlas.jpg",
-      "/publications/previews/diagnostic-records-mastery/05-summary.jpg",
-      "/publications/previews/diagnostic-records-mastery/06-where-mastery-begins.jpg",
+      "/publication-assets/previews/diagnostic-records-mastery/01-real-starting-point.jpg",
+      "/publication-assets/previews/diagnostic-records-mastery/02-clinical-pearl.jpg",
+      "/publication-assets/previews/diagnostic-records-mastery/03-golden-rule.jpg",
+      "/publication-assets/previews/diagnostic-records-mastery/04-anatomical-atlas.jpg",
+      "/publication-assets/previews/diagnostic-records-mastery/05-summary.jpg",
+      "/publication-assets/previews/diagnostic-records-mastery/06-where-mastery-begins.jpg",
     ],
 
     authorId: "mohamed-sawalhi",
@@ -156,17 +156,17 @@ export const BOOKS: Book[] = [
       "يأخذك هذا الكتاب في رحلة عملية عميقة داخل بروتوكول الزراعة الصحيح: لماذا الزراعة تختلف جذرياً عن أي إجراء تقليدي آخر؟ كيف يعمل الـ Physiodispenser ولماذا هو قلب النظام؟ ما الفرق بين الكونترا الأحمر والأزرق والأخضر وكيف يؤثر اختيارك على نجاح الزرعة؟\n\n" +
       "من خلال 8 صفحات مكثفة مصورة، يتناول الكتاب: آلية عمل الـ Physiodispenser وأهمية الـ Steady Torque ونظام ضخ المحلول الملحي 100%، جدول التروس الثلاثة (1:5 / 1:1 / 20:1) وتطبيق كل منها، برمجة 3 برامج أساسية في الجهاز (Drilling / Insertion / Densah Expansion)، أسئلة شائعة عملية مع إجابات مباشرة، و8 إرشادات ذهبية قابلة للتطبيق الفوري في كل عملية زراعة.",
 
-    coverImage: "/publications/covers/mastery-of-physics-implant-protocol.jpg",
-    pdfUrl: "/publications/pdfs/mastery-of-physics-implant-protocol.pdf",
+    coverImage: "/publication-assets/covers/mastery-of-physics-implant-protocol.jpg",
+    pdfUrl: "/publication-assets/pdfs/mastery-of-physics-implant-protocol.pdf",
     pdfSizeMB: 1.6,
 
     previewImages: [
-      "/publications/previews/mastery-of-physics-implant-protocol/01-introduction.jpg",
-      "/publications/previews/mastery-of-physics-implant-protocol/02-physiodispenser.jpg",
-      "/publications/previews/mastery-of-physics-implant-protocol/03-gear-ratio.jpg",
-      "/publications/previews/mastery-of-physics-implant-protocol/04-programming-console.jpg",
-      "/publications/previews/mastery-of-physics-implant-protocol/05-faq.jpg",
-      "/publications/previews/mastery-of-physics-implant-protocol/06-golden-tips.jpg",
+      "/publication-assets/previews/mastery-of-physics-implant-protocol/01-introduction.jpg",
+      "/publication-assets/previews/mastery-of-physics-implant-protocol/02-physiodispenser.jpg",
+      "/publication-assets/previews/mastery-of-physics-implant-protocol/03-gear-ratio.jpg",
+      "/publication-assets/previews/mastery-of-physics-implant-protocol/04-programming-console.jpg",
+      "/publication-assets/previews/mastery-of-physics-implant-protocol/05-faq.jpg",
+      "/publication-assets/previews/mastery-of-physics-implant-protocol/06-golden-tips.jpg",
     ],
 
     authorId: "mohamed-sawalhi",
